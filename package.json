@@ -6,7 +6,9 @@
     "start": "ts-node ./src/server.ts",
     "dev": "nodemon --exec yarn start",
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "build": "tsc"
+
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
